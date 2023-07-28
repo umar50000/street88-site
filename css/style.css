@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    background-image: url('../images/burger-img.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.header_logo {
+    border: 3px #62be19 solid;
+    border-radius: 5px;
+    background: #4e9f0d;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 0 15px;
+}
+
+.header-nav-link {
+    color: #62be19;
+    font-size: 20px;
+    transition: 0.5s all;
+}
+
+.header-nav-link:hover {
+    background-color: #62be19;
+    color: white;
+    padding: 40px 20px;
+}
+
+.header-title {
+    color: #62be19;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.header-subtitle {
+    font-size: 36px;
+    color: #62be19;
+}
+
+.header-text {
+    font-size: 18px;
+    color: #dedede;
+    margin-bottom: 80px;
+}
+
+.header-info {
+    background-color: rgba(106, 207, 23, 0.75);
+}
+
+.burger-list li {
+    list-style: none !important;
+}
+
+.categories-link {
+    color: #7a7a7a;
+    transition: 0.5s all;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.categories-link:hover {
+    color: #62be19;
+}
+
+.burger-card {
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+
+}
+
+.burger-card p {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(106, 207, 23, 0.75);
+    color: #dedede;
+    font-size: 24px;
+    transition: 0.5s;
+    padding: 15px 60px;
+    margin-bottom: 0;
+}
+
+
+
+
+.burger-card .burger-info {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(106, 207, 23, 0.75);
+    color: white;
+    font-size: 24px;
+    transition: 0.5s;
+    padding: 15px 60px;
+   margin-bottom: 0;
+}
+
+
+.burger-add {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    height: 100%;
+    width: 80%;
+    justify-content: center;
+   align-items: center;
+    background-color: #62be19;
+    transform: translateY(-100%);
+    transition: 0.5s;
+}
+
+
+.burger-card:hover .burger-add {
+    transform: translateY(0);
+    top:0;
+}
+
+
+.recipe {
+    background-image: url(../images/section_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+
+.recipe-title {
+    color: #62be19;
+}
+
+
+.line {
+    width: 200px;
+    height: 2px;
+    background-color: #62be19;
+}
+
+.recipe-text1, .recipe-text2 {
+    color: #dedede;
+}
+
+
+.filial {
+    color: #62be19;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.tel {
+    color: #62be19;
+    font-weight: bold;
+}
+
+
+.footer-links {
+  text-decoration: none;
+  color: white;
+  opacity: 0.5;
+  font-weight: bold;
+  font-size: 18px;
+}
